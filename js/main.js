@@ -13,3 +13,11 @@ console.log(lista);
 
 //POSIZIONE
 console.log(lista.indexOf(cognomeUtente) + 1);
+
+for ( var i = 0; i < lista.length; i++){
+    var items = lista[i];
+
+    var itemsEsistenti = document.getElementById('list').innerHTML;
+
+    document.getElementById('list').innerHTML = itemsEsistenti + '<li>' + items + '</li>';
+}
