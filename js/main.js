@@ -3,7 +3,7 @@ var lista = [ 'Cirillo', 'Curci', 'Duzioni', 'Caronti',];
 
 
 // RICHISESTA UTENTE
-var cognomeUtente = prompt ('Inserire cognome').toLocaleLowerCase;
+var cognomeUtente = prompt ('Inserire cognome').toLocaleLowerCase();
 
 // INSERIMENTO IN ARRAY
 lista.push(cognomeUtente);
